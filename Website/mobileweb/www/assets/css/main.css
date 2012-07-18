@@ -1,0 +1,593 @@
+/* *********************************
+ *  TEMP / FPO
+ */
+footer .social img {
+	vertical-align: text-bottom;
+}
+
+/* *********************************
+ *  jQuery Mobile Overrides
+ */
+.ui-content {
+	padding: 0px;
+}
+.ui-body-c, .ui-overlay-c {
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+.ui-btn-up-c {
+    background: rgb(71,181,224); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(71,181,224,1) 0%, rgba(58,149,217,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(71,181,224,1)), color-stop(100%,rgba(58,149,217,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(71,181,224,1) 0%,rgba(58,149,217,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(71,181,224,1) 0%,rgba(58,149,217,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(71,181,224,1) 0%,rgba(58,149,217,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(71,181,224,1) 0%,rgba(58,149,217,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47b5e0', endColorstr='#3a95d9',GradientType=0 ); /* IE6-9 */
+
+    border: 1px solid #CCCCCC;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: none;
+}
+.ui-btn-up-c * {
+	color: #fff;
+}
+.ui-btn-hover-c {
+    background: rgb(58,149,217);
+    color: white;
+    text-shadow: none;
+}
+.ui-btn-hover-c * {
+    color: white;
+}
+.ui-shadow {
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)
+}
+.ui-btn-corner-all {
+	border-radius: 0.75em;
+}
+.ui-btn-text {
+	font-size: 1.3em;
+}
+.ui-bar-a {
+	border: none;
+}
+.ui-collapsible-set {
+	margin: 0 0.5em;
+}
+.ui-collapsible-content {
+	padding: 0;
+}
+input.ui-input-text, 
+textarea.ui-input-text {
+	margin-top: 5px;
+}
+.content .container {
+	border: 1px solid #999999 !important;
+	border-radius: 10px;
+	overflow: hidden;
+	-moz-background-clip: content;     /* Firefox 3.6 */
+	-webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+	background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+}
+
+/* These prevent the inner LI's from bleeding over the container's rounded corners */
+.content .container li:first-of-type {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.content .container li:last-of-type {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/* *********************************
+ *  Elements
+ */
+* {
+	box-sizing: border-box;
+	color: #666666;
+	text-shadow: none;
+}
+
+body {
+	background-color: #fff;
+}
+
+p {
+	text-align: left;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+textarea {
+	overflow: hidden;
+}
+
+/* *********************************
+ *  IDs & Classes
+ */
+#main {
+	margin-bottom: 0px;
+}
+
+/* *********************************
+ *  Homepage Hero
+ */
+.hero {
+	position: relative;
+}
+.hero .mainlogo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+}
+.hero .mainlogo img {
+	width: 35%;
+}
+
+/* *********************************
+ *  Common Header
+ */
+header.condensed {
+	background: url("../img/logo_small.png") no-repeat #3896D4;
+	background-size: contain;
+	height: 36px;
+}
+
+/* *********************************
+ *  Other
+ */
+section.content {
+	padding: 10px;
+}
+
+footer {
+	background: #e6e6e6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6e6e6 0%, #e6e6e6 68%, #c7c7c7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(68%,#e6e6e6), color-stop(100%,#c7c7c7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6e6e6 0%,#e6e6e6 68%,#c7c7c7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6e6e6 0%,#e6e6e6 68%,#c7c7c7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6e6e6 0%,#e6e6e6 68%,#c7c7c7 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6e6e6 0%,#e6e6e6 68%,#c7c7c7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#c7c7c7',GradientType=0 ); /* IE6-9 */
+	padding: 10px 15px;
+}
+footer .social {
+ 	text-align: center;
+ 	color: #999;
+ 	font-weight: bold;
+ 	margin-bottom: 10px;
+ 	font-size: 1.2em;
+}
+
+/* *********************************
+ *  Link List
+ */
+.links {
+	width: 100%;
+	overflow: hidden;
+}
+.links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.links ul li {
+	float: left;
+	margin-right: 10px;
+}
+.links ul li:last-of-type {
+	margin-right: 0;
+}
+
+/* *********************************
+ *  Link List - Centered
+ */
+.links.centered ul {
+	left: 50%;
+	float: left;
+	position: relative;
+}
+
+.links.centered ul li {
+	position: relative;
+	right: 50%;
+}
+
+/* *********************************
+ *  Link List - Header
+ */
+header .links {
+	width: auto;
+	float: right;
+	height: 36px;
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+}
+header .links *,
+.ui-body-c header .ui-link:visited {
+	color: #fff;
+	text-shadow: none;
+	font-size: 0.95em;
+}
+
+.ui-body-c footer .ui-link,
+.ui-body-c footer .ui-link:visited,
+footer .links li {
+	color: #999;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 0.95em;
+}
+
+.gradient {
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM2JSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  rgba(233,233,233,1) 0%, rgba(233,233,233,0) 36%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(233,233,233,1)), color-stop(36%,rgba(233,233,233,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(233,233,233,0) 36%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(233,233,233,0) 36%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(233,233,233,0) 36%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(233,233,233,1) 0%,rgba(233,233,233,0) 36%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#00e9e9e9',GradientType=0 ); /* IE6-8 */
+}
+
+.ie9 .gradient {
+	filter: none;
+}
+
+/* *********************************
+ * Image Carousel
+ */
+.imagecarousel .carousel {
+	
+}
+.imagecarousel .carousel .wrapper {
+    background-color: #292A2B;
+    float: left;
+    overflow: hidden !important;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.imagecarousel .carousel .scroller {
+    float: left;
+    padding: 0;
+    position: relative;
+}
+.imagecarousel .carousel .scroller ul {
+    display: block;
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+.imagecarousel .carousel .scroller li {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+.imagecarousel .carousel .scroller li img {
+    width: 100%;
+}
+.imagecarousel .carousel .carouselNav {
+    color: #FFFFFF;
+    float: left;
+    height: 0;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 2;
+}
+.imagecarousel .carousel .prev {
+    display: none;
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+}
+.imagecarousel .carousel .prev a {
+    background: url("../img/arrows.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    width: 40px;
+}
+.imagecarousel .carousel .next {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: 2;
+}
+.imagecarousel .carousel .next a {
+    background: url("../img/arrows.png") no-repeat scroll -40px top transparent;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    width: 40px;
+}
+.imagecarousel .carousel .indicator {
+    bottom: 20px;
+    display: block;
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+.imagecarousel .carousel .indicator > li {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    float: left;
+    height: 7px;
+    list-style: none outside none;
+    margin: 0 7px 0 0;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -9999em;
+    width: 7px;
+}
+.imagecarousel .carousel .indicator > li.active {
+    background: none repeat scroll 0 0 #888888;
+}
+.imagecarousel .carousel .indicator > li:last-child {
+    margin: 0;
+}
+.imagecarousel .carousel .scroller li .content {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* *********************************
+ * Info Bubble
+ */
+.bubble {
+	background: url("../img/orangebubble_03_03.png") center no-repeat;
+	background-size: contain;
+	height: 100%;
+	width: 100%;
+	/*border-radius: 50%;*/
+	/*overflow: hidden; This kills the icon */
+	padding: 6% 10%;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.bubble * {
+	color: #fff;
+}
+.bubble-title {
+	font-weight: 900;
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+.bubble-content {
+	font-size: 0.7em;
+}
+
+
+.bubble-icon {
+	height: 40px;
+	width: 50px;
+	text-align: center;
+	margin: -30px auto -5px 25%;
+}
+
+
+/* *********************************
+ * Info Bubble, position & size when in the slide show
+ */
+#scroller .bubble {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	height: 50%;
+	width: 50%;
+}
+
+
+header .links a:ho_ver {
+	padding: 3px;
+	background: #404040;
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+header .links a:ho_ver:after {
+	content: "";
+	border: solid 10px transparent; /* set all borders to 10 pixels width */
+	border-top-color: #404040; /* the callout */
+	border-bottom: 0; /* we do not need the bottom border in this case */
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	bottom: -20px; /* border-width of the :after element + padding of the root element */
+	margin: auto;
+}
+
+#breadcrumb {
+	margin: 5px 0 5px 11px;
+}
+#breadcrumb.links * {
+	color: #3996D4;
+}
+#breadcrumb.links li {
+	margin-right: 5px;
+}
+
+#breadcrumb.links li:after {
+	content: " \00bb ";
+	color: #666666;
+}
+#breadcrumb.links li:last-child {
+	color: #666666;
+}
+#breadcrumb.links li:last-child:after {
+	content: "";
+}
+#breadcrumb li a {
+	font-weight: 400;
+}
+
+
+.hero {
+	width: 100%;
+}
+img.scalable {
+	width: 100%;
+}
+h1.pagetitle {
+	margin: 0 0 10px 0;
+	color: #3996D4;
+}
+h1.pagetitle.center {
+	text-align: center;
+}
+
+
+/* *********************************
+ * Grid, 4-column (used on location detail page)
+ */
+.grid4 {
+	
+}
+.grid4 .tile {
+	float: left;
+	position: relative;
+	width: 25%;
+	text-align: center;
+	padding: 1px;
+	margin: 0 0 10px 0;
+}
+.grid4 .caption {
+	font-weight: 900;
+	font-size: 0.8em;
+}
+
+/* *********************************
+ * Badge. iPhone-like notification icon
+ */
+.badge {
+	border-radius: 10px;
+	height: 1.8em;
+	min-width: 1.8em;
+	line-height: 1.8em;
+	font-size: 0.7em;
+	font-weight: 700;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #666666;
+	color: #fff;
+	text-align: center;
+	padding: 0 4px;
+}
+.badge.green {
+	background-color: #00a651;
+	color: #fff;
+}
+.badge.orange {
+	background-color: #FF6134;
+	color: #fff;
+}
+.badge.red {
+	background-color: #f00;
+	color: #fff;
+}
+
+/* *********************************
+ * H3 Modifications
+ */
+h3 * {
+	color: #fff;
+}
+.h3-sub {
+	font-size: 0.8em;
+}
+.ui-collapsible-heading {
+	background-color: #ccc;
+}
+
+
+
+
+.chat-icon {
+	width: 30%;
+	float: right;
+}
+
+
+.rows {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+}
+.rows li {
+	padding: 10px;
+}
+.rows.alternating li:nth-child(odd) {
+	background-color: #ffffff;
+}
+.rows.alternating li:nth-child(even) {
+	background-color: #ECF1F5;
+	border-top: 1px solid #D6D7D8;
+	border-bottom: 1px solid #D6D7D8;
+}
+.rows .item {
+	float: left;
+	color: #555555;
+}
+.rows .info {
+	float: right;
+	color: #6496c8;
+}
+
+
+/* *********************************
+ * Chat messaging
+ */
+[data-template="chat"] .avatar {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 10px 0;
+}
+[data-template="chat"] .username {
+	color: #499ddc;
+	font-weight: 900;
+}
+[data-template="chat"] .timestamp {
+	color: #b4b3b4;
+	font-size: 0.9em;
+}
+[data-template="chat"] .message {
+	clear: both;
+	font-size: 0.9em;
+}
