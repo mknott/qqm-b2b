@@ -1,0 +1,83 @@
+html{filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+#lb_mask{
+	position:absolute;top:0;left:0;height:100%;min-height:100%;width:1024px;background:#FFFFFF;-moz-opacity:.70; 
+	filter:alpha(opacity=70);opacity:.70; text-align: center; z-index: 500;
+}
+
+#lightbox{margin: 0px auto; width:950px; position:relative; margin: 0 auto; visibility:hidden;}
+
+div#dp-popup{z-index:400099 !important;}
+/*500099*/
+
+#lb_nw{width:20px;height:25px; float:left;}
+#lb_n{width:280px;height:25px; float:left;}
+#lb_ne{width:25px;height:25px; float:left;}
+
+#lb_w{width:20px;height:auto; float:left;}
+#lb_c{width:280px;height:auto; float:left;}
+#lb_e{width:25px;height:auto; float:left;}
+
+#lb_sw{width:20px;height:25px; float:left;}
+#lb_s{repeat-x 0px bottom; width:280px;height:25px; float:left;}
+#lb_se{width:25px;height:25px; float:left;}
+#lb_close a:visited, #lb_close a:active, #lb_close a:hover, #lb_close a{text-decoration: none;}
+
+#lb_title{color:#2c52a4; font-size: 20px; padding: 0px 50px 0px 5px; line-height:22px; margin:0px; text-align:left;}
+#lb_content{padding:5px 5px 0px 5px; color:#666666; font-size:13px; margin-top:10px; text-align:left; min-height:125px;}
+
+#sp_n, #sp_s, #sp_sw, #sp_nw, #sp_se, #sp_ne{width:4px; height:4px; font-size:0px; float:left;}
+#sp_top, sp_bottom{font-size:0px; height: 4px;}
+#sp_c{border-right: 2px solid #cccccc; border-left: 2px solid #cccccc; background:#fafafa url(images/sp_gradient.gif) repeat-x;}
+
+#ss_n, #ss_s, #ss_sw, #ss_nw, #ss_se, #ss_ne{width:4px; height:4px; font-size:0px; float:left;}
+#ss_top, ss_bottom{font-size:0px; height:4px;}
+#ss_c{border-right: 2px solid #96b1e5; border-left: 2px solid #96b1e5; background:#eef3fc url(images/ss_gradient.gif) repeat-x;}
+
+#priceTable.p10{padding: 10px;}
+#priceTable th{font-weight:normal; color: #2c52a4; font-size: 20px; width:128px;}
+#priceTable th, #priceTable td{vertical-align: middle; text-align: left;}
+#priceTable .spacer{padding:5px; height:14px;}
+#yourMiles, #regMiles{ width: 108px; font-weight: 400; font-size: 20px; padding-left:2px;}
+#yourMoney, #regMoney{ width: 247px; font-weight: 400; font-size: 20px; padding-left:2px;}
+
+#priceTable .cbg{
+	height:45px; background:url(images/tb_center.gif);
+}
+#priceTable .lbg{
+	width:8px; height: 45px; background:url(images/tb_left.gif);
+}
+#priceTable .rbg{
+	width:8px; height: 45px; background:url(images/tb_right.gif);
+}
+
+/* styles for the price breakdown */
+#priceTable .mmSaved{font-size:11px; font-weight:bold; padding-bottom: 4px; font-style:italic;}
+#priceTable .orTxt{font-size:12px; font-weight:bold; width: 23px; text-align: center;}
+#priceTable .per{font-size:12px; font-weight:bold; padding-left:5px;}
+#priceTable .taxes, #priceTable .login{height: 16px; padding-top:10px; font-size: 11px;}
+#priceTable .login{float:left; font-weight: 700;}
+#priceTable .taxes{float:right; text-align:right;  font-weight: 400; color:#2c52a4;}
+
+#ssdiffDiv .pt10{padding-top: 10px; font-size: 0px; clear: both;}
+#ssdiffDiv .title{font-weight:bold; font-size: 16px; margin-bottom: 4px;}
+#ssdiffDiv #ss_c{padding:10px;}
+
+
+/* styles for the search box */
+#dottedLine{border-top:1px dashed #999999; padding-bottom:6px;}
+#searchWrapper{padding:1px 5px 5px 5px; margin-top: -9px;}
+#searchWrapper .mb5{margin-bottom:3px;}
+#searchWrapper .w{width:auto;}
+#searchWrapper select, #searchWrapper input{line-height: auto; height: auto; font-size:12px; 
+		padding-top:1px; padding-bottom:1px; margin-top:auto; margin-bottom:auto;}
+#searchWrapper input[type="checkbox"]{padding:0px; margin:0px; height: 15px; width: 15px;}
+#shop_from0_temp, #shop_to0_temp{width:110px; font-size: 11px;}
+#shop_depart0, #shop_arrive0{width:80px; margin-left: 5px; font-size: 11px;}
+#awardType label{margin-left:5px;}
+#passengers td{padding-right: 10px; padding-bottom:1px;}
+#moreOptions label{width:100px; display:block; float:left;}
+#loginForm{display:none; float:left;}
+#loginForm #userid{width:175px;}
+#loginForm #password{width:95px;}
+#loginDiv a:visited, #loginDiv a:active, #loginDiv a:hover, #loginDiv a{text-decoration: none;}

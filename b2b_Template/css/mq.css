@@ -1,0 +1,26 @@
+/* CSS Document */
+
+@media only screen and (min-width: 1280px){
+	#mystay{
+	
+	}
+	}
+@media only screen and (max-width: 1024px){
+	#mystay{
+		
+	}
+}
+@media only screen and (max-width: 800px){
+	#mystay{}
+	@media only screen and (max-width: 600px){
+	#mystay{}
+	}
+@media only screen and (max-width: 480px){
+	
+	
+	}
+
+@media only screen and (max-width: 380px){
+
+
+	}
