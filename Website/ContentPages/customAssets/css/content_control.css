@@ -1,0 +1,86 @@
+/*!
+ *	Main:
+ *		Blue 		Hex:#3a95d9 RGB 58,149,217
+ *		Orange 		Hex:#ff6627 RGB 255, 102, 39
+ *	Secondary:
+ *		Dark Grey:	Hex:#666 	rgb 102,102,102
+ 		grey 		Hex:#999 	rgb 153,153,153
+ 		light grey	Hex:#ccc 	rgb 204,204,204
+ 		est grey	Hex:#f0f0f0 rgb 240,240,240
+
+Primary Typeface
+Helvetica Bold is used for primary for headlines, section titles, buttons heading and image type.
+Secondary Typeface
+Helvetica Regular is the primary typeface used throughout the site for body copy and secondary text links
+When Helvetica is not available Arial can be replaced.
+Helvetica Bold
+ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789
+Helvetica Regular
+ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789
+
+Primary Button
+Indicates a primary call-to-action for the user. Examples of primary action buttons include Get Started, Submit, and Share.
+Secondary Buttons
+Indicates a secondary action for the user. Examples of secondary action buttons include Login.
+Carousal Arrows
+Used to navigate through hero promos, testimonials, and service icons.
+Modal Close Button
+Only used to close a modal.
+More Arrows
+Links to a lightbox modal.
+Pagination Dots
+These are for feature list items to show different product views.
+
+Callout Bubbles
+Callout circle are used throughout the site to highlight details. Circles can be used with or without overlapping icons. More arrows lead to a lighbox modal with addition information.
+Social Icons
+Social media icons for Email, Facebook, Twitter, Linkedin, and Google+
+Dotted Line
+This graphic is used as a visual separator.
+
+ */
+
+ .primaryBlue{
+ color:#3a95d9;
+ }
+ .primaryOrange{
+ color:#ff6627;
+ }
+/*Secondary Colors: Greys Dark to light*/
+
+.darkGrey{
+ 	color:#666;
+}
+.darkMidGrey{
+	color:#999;
+}
+
+.lightMidGrey{
+	color:#ccc;
+}
+
+.lightGrey{
+	color:#f0f0f0;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.margin-center{
+	margin: 0 auto;
+}
+
+.margin-left-230p{ margin-left:230px;}
+.margin-top-bottom-30{ margin-top:30px;}
+.margin-nudge-right-10p{margin-left:10px;}
+
+
+/* target Items*/
+#getStarted_btn{
+	width:270px;
+}
+.item {
+	background-color:#abc;
+	min-height:200px;
+}
