@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+	<head>
+		<title>MyStay</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/mq.css" />
+		<link rel="stylesheet" type="text/css" href="css/lightBox.css" />
+		<script language="JavaScript" type="text/javascript" src="js/jquery172.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/toolbox.js"></script>
+			<script language="JavaScript" type="text/javascript" src="js/lightbox.js"></script>
+		<SCRIPT type=text/javascript charset=utf-8>
+	//var sbsTimes=true;
+
+		deleteCal = function(){
+			if(document.getElementById('dp-popup')){
+				document.body.removeChild(document.getElementById('dp-popup'));
+			}
+		}
+		setCal = function(){		
+
+			//displayDefaultDates();
+				
+			/*can bind events 
+			$(window).bind('scroll', function(){$('#dp-popup').css('display','none');resizeAutosuggest();});
+
+				$(document.body).bind('click',function(e) {					
+				closeCal(e);
+				documentOnclickForAutosuggest();
+				})
+			*/
+		}
+		
+		$(document).ready(function(){
+				lightBox.open = setCal;
+				lightBox.close = deleteCal;
+				lightBox.closeText = 'Close';
+			});	
+
+ </SCRIPT>       
+	</head>
+<body>
+<div id="mystay">
+	<div id="mystayWrapper">
+		<div id="header">
+			<div id="utools" class="clearfix"> 
+				<ul>
+					<li class="blue">
+					<a href="javascript:lightBox.showById('startedHTML','startedTitle',890, 0);" class="blue featuredBtn">Get Started</a>
+					</li>
+					<li class="gray">
+					<a href="javascript:lightBox.showById('loginHTML','loginTitle',890, 0);" class="gray featuredBtn">Login</a>
+					</li>
+				</ul>
+				
+			</div>
+			
+			<div id="topLinks" class="f18">
+				
+				<ul>
+					<li><a href="javascript: void(0)">Home</a></li><li><a href="javascript: void(0)" class="active">How it works</a></li>
+					<li><a href="javascript: void(0)">Features</a></li><li><a href="javascript: void(0)">Testimonials</a></li>
+				</ul>
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+	</div>
+</div>
+
+
+
+<div id="msfooter">
+	<div id="footer" >
+					<div class="footerLeft">
+							
+								<ul class="flfirst f12">
+									<li><a href="javascript: void(0)">ABOUT US</a></li><li><a href="javascript: void(0)">CONTACT US</a></li>
+									<li><a href="javascript: void(0)" class="active">FAQ</a></li><li><a href="javascript: void(0)">SUPPORT</a></li>
+									<li><a href="javascript: void(0)">CAREERS</a></li><li><a href="javascript: void(0)">BLOG</a></li><li><a href="javascript: void(0)">PRESS</a></li>
+									
+								</ul>
+							
+							<div class="clearfix">&nbsp;</div>
+							
+								<ul class=" f12">
+								<li><span>myStay is proprietary property  of CueMobile</span></li>
+								<li><a href="javascript: void(0)">Privacy policy</a></li>
+								<li><a href="javascript: void(0)">Trademark</a></li>
+								<li><a href="javascript: void(0)">Terms and conditions</a></li>
+								</ul>
+							
+					</div>
+					<div class="footerRight f14 bold" >
+						<ul class="imglinks">
+								<li class="lihd"><span>Share</span> </li>
+								<li><a href="javascript: void(0)"><img src="images/clear.gif" class="atdr" /></a></li>
+								<li><a href="javascript: void(0)"><img src="images/clear.gif" class="msg" /></a></li>
+								<li><a href="javascript: void(0)"><img src="images/clear.gif" class="fb" /></a></li>
+								<li><a href="javascript: void(0)"><img src="images/clear.gif" class="twt" /></a></li>
+								<li><a href="javascript: void(0)"><img src="images/clear.gif" class="lin" /></a></li>
+								<li><a href="javascript: void(0)"><img src="images/clear.gif" class="gplus" /></a></li>
+							</ul>
+						
+					</div>
+				<div class="clearfix">&nbsp;</div>	
+	</div>
+	<div style="display: none!important">
+		
+			<div id="startedTitle" >Lets Get Started With - MyStay Services</div>
+			<div id="startedHTML"  >
+				<div >
+				Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				
+				</div>
+			</div>
+			<div id="loginTitle" >login lightbox</div>
+			<div id="loginHTML"  >
+				<div >
+				<b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b>
+				<b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b><b>Login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br>
+				login <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br>Get Started <br><br></b>
+				</div>
+			</div>
+	</div>
+</div>
+<!--end Clip  Footer  -->
+
+</body>
+</html>

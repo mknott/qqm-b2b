@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>MyStay-bootstraphero</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+
+<!-- Le styles -->
+<!--link href="customAssets/css/layout.css" rel="stylesheet"/-->
+<link href="../bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="../css/content_control.css" rel="stylesheet"/>
+<script src="../js/jquery.js"></script>
+<!--link href="customeAssets/css/bootstrap.fluid-grid-offsets.css" rel="stylesheet"/-->
+<!--link href="customeAssets/css/docs.css" rel="stylesheet"/-->
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!-- Le fav and touch icons -->
+</head>
+
+<body>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container"> 
+      
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content --> 
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+      
+      <!-- Be sure to leave the brand out there if you want it shown --> 
+      <a class="brand" href="#">Project name</a> 
+      
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse"> 
+        <!-- .nav, .navbar-search, .navbar-form, etc -->
+        <ul class="nav">
+          <li class="active"> <a href="#">Home</a> </li>
+          <li class="dropdown" id="menu1"> <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1"> Dropdown <b class="caret"></b> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li><a id="features_lnk" href="#">Features</a></li>
+          <li><a id="pricing_lnk" href="#">Pricing</a></li>
+          <li><a id="howItWorks_lnk" href="#">How it works</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container"></div>
+
+<!-- /container -->
+<footer class="container-fluid well" > 
+  <!-- data-spy="affix" data-offset-bottom="30" -->
+  <div id="footerMenu-leftside" class="pull-left">
+    <ul class="nav nav-pills">
+      <li><a href="javascript: void(0)" class="darkMidGrey">ABOUT US</a></li>
+      <li><a href="javascript: void(0)" class="darkMidGrey">CONTACT US</a></li>
+      <li><a href="javascript: void(0)" class="darkMidGrey">FAQ</a></li>
+      <li><a href="javascript: void(0)" class="darkMidGrey">SUPPORT</a></li>
+      <li><a href="javascript: void(0)" class="darkMidGrey">CAREERS</a></li>
+      <li><a href="javascript: void(0)" class="darkMidGrey">BLOG</a></li>
+      <li><a href="javascript: void(0)" class="darkMidGrey">PRESS</a></li>
+    </ul>
+    <div class="clearfix"></div>
+    <ul class="nav nav-pills ">
+      <li><a>myStay is proprietary property  of CueMobile</a></li>
+      <li><a href="javascript: void(0)">Privacy policy</a></li>
+      <li><a href="javascript: void(0)">Trademark</a></li>
+      <li><a href="javascript: void(0)">Terms and conditions</a></li>
+    </ul>
+  </div>
+  <div id="socialMenu" class="pull-right">Social</div>
+</footer>
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster -->
+<div class="modal hide darkMidGrey" id="myModal"><!-- width created in assetsLoader.js--> 
+  <!--div class="modal-header">
+    <button class="close" data-dismiss="modal">×</button>
+    <h3>Modal header</h3>
+  </div-->
+  <div class="modal-body" id="modalContent"><!--Content will load here--></div>
+  <!--div class="modal-footer">
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div--> 
+</div>
+<script src="../js/assetLoader.js"></script> 
+<script src="../bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
