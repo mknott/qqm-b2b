@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('#share_btn').click(function (){
 	//alert('features');
 		$('#modalContent').load('modalPages/share_emailForm.html');
-		$('#myModal').modal('show');
+		$('#modalWapper').modal('show');
 		//adjustModalwidth();
 	});
 
@@ -13,42 +13,42 @@ $(document).ready(function(){
 	$('#features_lnk').click(function (){
 	//alert('features');
 		$('#modalContent').load('modalPages/features.html');
-		$('#myModal').modal('show');
+		$('#modalWrapper').modal('show');
 		//adjustModalwidth();
 	});
 
 	$('#getStarted_home_btn').click(function (){
 	//alert('pricing');pricing_lnk
 		$('#modalContent').load('modalPages/pricing.html');
-		$('#myModal').modal('show');
+		$('#modalWrapper').modal('show');
 		adjustModalwidth();
 	});
 
 	$('#howItWorks_lnk').click(function (){
 	//alert('How it works');
 		$('#modalContent').load('modalPages/howitworks.html');
-		$('#myModal').modal('show');
+		$('#modalWrapper').modal('show');
 		adjustModalwidth()
 	});
 	
 	$('#testimonials_lnk').click(function (){
 	//alert('How it works');
 		$('#modalContent').load('modalPages/testimonials.html');
-		$('#myModal').modal('show');
+		$('#modalWrapper').modal('show');
 		adjustModalwidth()
 	});
 	
 	$('#login_btn').click(function (){
 	//alert('How it works');
 		$('#modalContent').load('modalPages/login_Form.html');
-		$('#myModal').modal('show');
+		$('#modalWrapper').modal('show');
 		adjustModalwidth()
 	});
 	
 	/*signUp_lnk*/
 	
 	function adjustModalwidth(){
-		$('#myModal').modal({
+		$('#modalWrapper').modal({
 				backdrop: true,
 				keyboard: true
 			}).css({
