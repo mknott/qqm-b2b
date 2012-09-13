@@ -6,7 +6,7 @@ $(document).ready(function(){
 	//alert('features');
 		$('#modalContent').load('modalPages/share_emailForm.html');
 		$('#modalWapper').modal('show');
-		//adjustModalwidth();
+		adjustModalwidth();
 	});
 
 	
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	//alert('features');
 		$('#modalContent').load('modalPages/features.html');
 		$('#modalWrapper').modal('show');
-		//adjustModalwidth();
+		adjustModalwidth();
 	});
 
 	$('#getStarted_home_btn').click(function (){
