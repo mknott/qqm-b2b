@@ -72,7 +72,7 @@ This graphic is used as a visual separator.
 }
 
 .margin-left-230p{ margin-left:230px;}
-.margin-top-bottom-30{ margin-top:30px;}
+.margin-top-bottom-30p{ margin-top:30px;}
 .margin-nudge-right-10p{margin-left:10px;}
 
 
@@ -80,11 +80,11 @@ This graphic is used as a visual separator.
 #getStarted_btn{
 	width:270px;
 }
-.item {
-	background-color:#abc;
+#myCarousel .item {
+	background-color:#fff;
 	min-height:200px;
 }
 
 #modalWrapper{
-	
 	z-index:2000!important}
+

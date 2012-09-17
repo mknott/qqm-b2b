@@ -5,7 +5,6 @@ background: url(../images/siteroller.jpg) no-repeat center center fixed;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;  
-   text-align: center;
    font-family: Myriad Pro;
 }
 .clearfix:after {
@@ -122,3 +121,4 @@ width: 1024px; height:90px; border: 1px solid #333; margin: 0 auto;
 .footerLeft ul span{color: #777777;}
 .footerLeft ul li a: visited{color: #aeaeae;}
 .footerRight{padding: 20px; color: #aeaeae; float: right; vertical-align: center;}
+
