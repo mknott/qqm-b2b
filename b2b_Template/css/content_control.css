@@ -84,6 +84,10 @@ This graphic is used as a visual separator.
 	background-color:#fff;
 	min-height:200px;
 }
+.modal-body{
+min-height: 600px;
+
+}
 
 #modalWrapper{
 	z-index:2000!important}

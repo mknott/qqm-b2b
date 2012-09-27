@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body{
 background: url(../images/siteroller.jpg) no-repeat center center fixed; 
@@ -122,3 +123,129 @@ width: 1024px; height:90px; border: 1px none #333; margin: 0 auto;
 .footerLeft ul li a: visited{color: #aeaeae;}
 .footerRight{padding: 20px; color: #aeaeae; float: right; vertical-align: center;}
 
+=======
+
+body{
+background: url(../images/siteroller.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;  
+   font-family: Myriad Pro;
+}
+.clearfix:after {
+		content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \ */
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+#mystay{
+        /* background-color: #000;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+        filter: alpha(opacity=30);
+        opacity: 0.3;*/
+		/*border: 1px solid #333;*/
+		margin: 0 auto;
+		letter-spacing: 0.25em;
+		width: 1024px;
+		z-index: -1;
+		
+}
+#mystayWrapper{background: url(../images/myStayLogo.png) no-repeat top left; min-height: 800px;}
+#header{padding: 20px;}
+#utools ul {float: right;}
+#utools li{float: left; margin: 10px;}
+li.blue{	background: url(../images/blueArrow.png) no-repeat; height: 33px; background-position:bottom; }
+li.gray{ background: url(../images/grayArrow.png) no-repeat; height: 33px; background-position:bottom; }
+.blue.featuredBtn{
+background-color: #2DAEBF;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#49b1e3', endColorstr='#2d7cd0'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#49b1e3), to(#2d7cd0)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #49b1e3,  #2d7cd0); /* for firefox 3.6+ */ 
+}
+
+.gray.featuredBtn{
+background-color: #2DAEBF;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9f9f9f', endColorstr='#686868'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#9f9f9f), to(#686868)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #9f9f9f,  #686868); /* for firefox 3.6+ */ 
+}
+
+a.featuredBtn{
+	background: url(../images/overlay-button.png) repeat-x scroll 0 0 #222222;
+	border-bottom: 0px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    overflow: visible;
+    padding: 5px 15px 6px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+    width: auto;
+}
+
+
+
+#topLinks {
+		float: right;
+		bottom:0;
+	}
+#topLinks  ul li{float: left; padding: 10px 13px; }
+#topLinks ul li a{color: #fff; font-weight: bold; text-decoration: none; letter-spacing: 0.050em;}
+#topLinks ul li a: visited{color: #fff;}
+#topLinks a.active{color: #fc6327}
+
+
+.f10{font-size: 0.625em;}
+.f11{font-size: 0.688em;}
+.f12{font-size: 0.75em;}
+.f13{font-size: 0.813em}
+.f14{font-size: 0.875em;}
+.f16{font-size: 1em;}
+.f18{font-size: 1.125em;}
+.f20{font-size: 1.25em;}
+.f24{font-size: 1.5em;}
+.bold{font-weight: bold;}
+#msfooter{bottom:0;
+    position:fixed;
+    z-index:500099;
+	width: 100%;
+	background: url(../images/footerbg.gif) repeat-x bottom left; background-color: #e6e6e6;
+}
+
+#footer{
+width: 1024px; height:90px; /*border: 1px solid #333;*/ margin: 0 auto;
+}
+.footerLeft{padding: 15px 0 15px 15px;  float: left;}
+.footerLeft ul li {float: left; padding: 5px 0px;}
+
+.imglinks li{float: left;}
+.imglinks li.lihd{padding: 8px 0px;}
+.imglinks  img{background: url(../images/icons.gif) no-repeat; height: 30px; width: 30px;}
+.imglinks img.atdr{background-position: 0 0;}
+.imglinks img.msg{background-position: -30px 0;}
+.imglinks img.fb{background-position: -60px 0;}
+.imglinks img.twt{background-position: -90px 0;}
+.imglinks img.lin{background-position: -120px 0;}
+.imglinks img.gplus{background-position: -150px 0;}
+
+.footerLeft ul span, .footerLeft ul li a{color: #aeaeae; text-decoration: none; padding: 20px; letter-spacing: 0.050em}
+.footerLeft ul span{color: #777777;}
+.footerLeft ul li a: visited{color: #aeaeae;}
+.footerRight{padding: 20px; color: #aeaeae; float: right; vertical-align: center;}
+
+>>>>>>> Adjusted the modal height

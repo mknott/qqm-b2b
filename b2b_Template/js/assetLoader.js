@@ -56,6 +56,10 @@ $(document).ready(function(){
 				    //return ($(document).width() * .9) + 'px';
 				    return ('840px');
 			   },
+			   'height': function () {
+				    //return ($(document).width() * .9) + 'px';
+				    return ('543px');
+			   },
 			   'margin-left': function () {
 				   return -($(this).width() / 2);
 			   }
