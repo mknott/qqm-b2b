@@ -4741,7 +4741,7 @@ input[type="submit"].btn.btn-mini {
 
 .modal-backdrop,
 .modal-backdrop.fade.in {
-  opacity: 0.8;
+  opacity: 0.2;
   filter: alpha(opacity=80);
 }
 
@@ -4754,8 +4754,8 @@ input[type="submit"].btn.btn-mini {
   margin: -250px 0 0 -280px;
   overflow: auto;
   background-color: #ffffff;
-  border: 1px solid #999;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 0px solid #999;
+  border: 0px solid rgba(0, 0, 0, 0.3);
   *border: 1px solid #999;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;

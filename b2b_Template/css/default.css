@@ -26,7 +26,7 @@ background: url(../images/siteroller.jpg) no-repeat center center fixed;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
         filter: alpha(opacity=30);
         opacity: 0.3;*/
-		border: 1px solid #333;
+		border: 1px none #333;
 		margin: 0 auto;
 		letter-spacing: 0.25em;
 		width: 1024px;
@@ -102,7 +102,7 @@ a.featuredBtn{
 }
 
 #footer{
-width: 1024px; height:90px; border: 1px solid #333; margin: 0 auto;
+width: 1024px; height:90px; border: 1px none #333; margin: 0 auto;
 }
 .footerLeft{padding: 15px 0 15px 15px;  float: left;}
 .footerLeft ul li {float: left; padding: 5px 0px;}
