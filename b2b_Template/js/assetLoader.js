@@ -1,5 +1,9 @@
 $(document).ready(function(){
 //alert('JQuery fired');
+function active_Indicator(){
+	$('#topLinks ul li').removeClass('active');
+	$(this).addClass('active');
+}
 
 var spec_modal_Height = 800;//Modal generic default
 var spec_modal_Width = 542;//Modal generic default
@@ -13,6 +17,7 @@ var spec_modal_Width = 542;//Modal generic default
 	
 	$('#features_lnk').click(function (){
 	//alert('features');
+		active_Indicator(this);
 		$('#modalContent').load('modalPages/features.html');
 		$('#modalWrapper').modal('show');
 		adjustModalwidth(900, 542);
@@ -20,9 +25,10 @@ var spec_modal_Width = 542;//Modal generic default
 
 	$('#getStarted_home_btn').click(function (){
 	//alert('pricing');pricing_lnk
+		active_Indicator(this);
 		$('#modalContent').load('modalPages/pricing.html');
 		$('#modalWrapper').modal('show');
-		adjustModalwidth(9000, 490);
+		adjustModalwidth(900, 490);
 	});
 
 	$('#howItWorks_lnk').click(function (){

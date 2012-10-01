@@ -34,7 +34,7 @@ background: url(../images/siteroller.jpg) no-repeat center center fixed;
 		z-index: -1;
 		
 }
-#mystayWrapper{background: url(../images/myStayLogo.png) no-repeat top left; min-height: 800px;}
+#mystayWrapper{background: url(../images/myStayLogo.png) no-repeat top left; min-height: 800px; position: absolute;}
 #header{padding: 20px;}
 #utools ul {float: right;}
 #utools li{float: left; margin: 10px;}
