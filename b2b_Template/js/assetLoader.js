@@ -1,12 +1,13 @@
 $(document).ready(function(){
 //alert('JQuery fired');
 
-
+var spec_modal_Height = 800;//Modal generic default
+var spec_modal_Width = 542;//Modal generic default
 	$('#share_btn').click(function (){
 	//alert('features');
 		$('#modalContent').load('modalPages/share_emailForm.html');
 		$('#modalWapper').modal('show');
-		adjustModalwidth();
+		adjustModalwidth(700, 400);
 	});
 
 	
@@ -14,51 +15,52 @@ $(document).ready(function(){
 	//alert('features');
 		$('#modalContent').load('modalPages/features.html');
 		$('#modalWrapper').modal('show');
-		adjustModalwidth();
+		adjustModalwidth(900, 542);
 	});
 
 	$('#getStarted_home_btn').click(function (){
 	//alert('pricing');pricing_lnk
 		$('#modalContent').load('modalPages/pricing.html');
 		$('#modalWrapper').modal('show');
-		adjustModalwidth();
+		adjustModalwidth(9000, 490);
 	});
 
 	$('#howItWorks_lnk').click(function (){
 	//alert('How it works');
 		$('#modalContent').load('modalPages/howitworks.html');
 		$('#modalWrapper').modal('show');
-		adjustModalwidth()
+		adjustModalwidth(900, 490);
 	});
 	
 	$('#testimonials_lnk').click(function (){
 	//alert('How it works');
 		$('#modalContent').load('modalPages/testimonials.html');
 		$('#modalWrapper').modal('show');
-		adjustModalwidth()
+		adjustModalwidth(700, 400);
 	});
 	
 	$('#login_btn').click(function (){
 	//alert('How it works');
 		$('#modalContent').load('modalPages/login_Form.html');
 		$('#modalWrapper').modal('show');
-		adjustModalwidth()
+		adjustModalwidth(700, 400);
 	});
 	
 	/*signUp_lnk*/
 	
-	function adjustModalwidth(){
+	function adjustModalwidth( spec_modal_Height, spec_modal_Width){
+		
 		$('#modalWrapper').modal({
 				backdrop: true,
 				keyboard: true
 			}).css({
-			   'width': function () {
+			   'width': function (spec_modal_Width) {
 				    //return ($(document).width() * .9) + 'px';
-				    return ('840px');
+				    return (spec_modal_Height + 'px');
 			   },
-			   'height': function () {
+			   'height': function (spec_modal_Height) {
 				    //return ($(document).width() * .9) + 'px';
-				    return ('543px');
+				    return (spec_modal_Width + 'px');
 			   },
 			   'margin-left': function () {
 				   return -($(this).width() / 2);
