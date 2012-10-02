@@ -1,8 +1,10 @@
 $(document).ready(function(){
 //alert('JQuery fired');
 function active_Indicator(){
-	$('#topLinks ul li').removeClass('active');
-	$(this).addClass('active');
+	var targetThis = $(this);
+	$('#topLinks ul li a').removeClass('active');
+	$(targetThis).toggleClass('active');
+	console.Log(targetThis);
 }
 
 var spec_modal_Height = 800;//Modal generic default
