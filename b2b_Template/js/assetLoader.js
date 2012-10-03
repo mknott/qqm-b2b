@@ -52,7 +52,7 @@ $('#home_lnk').click(function (){
 		$(this).toggleClass('active');
 		$('#modalContent').load('modalPages/testimonials.html');
 		$('#modalWrapper').modal('show');
-		adjustModalwidth(700, 400);
+		adjustModalwidth(900, 360);
 	});
 	
 	$('#login_btn').click(function (){
