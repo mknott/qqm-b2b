@@ -59,7 +59,7 @@ $('#home_lnk').click(function (){
 		active_Indicator(this);
 		$(this).toggleClass('active');
 		$('#modalContent').load('modalPages/login_Form.html');
-		$('#modalWrapper').modal('show');
+		$('#modalWrapper').modal('show');//need to code  -->set home link to active on modal close 
 		adjustModalwidth(700, 400);
 	});
 	

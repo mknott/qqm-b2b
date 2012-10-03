@@ -90,12 +90,15 @@ This graphic is used as a visual separator.
 .margin-nudge-right-30p{margin-left:30px;}
 .margin-nudge-right-35p{margin-left:35px;}
 .margin-nudge-right-65p{margin-left:65px;}
+.margin-nudge-right-125p{margin-left:125px;}
 
 .margin-nudge-left-10p{margin-right:10px;}
 .margin-nudge-left-15p{margin-right:15px;}
 .margin-nudge-left-20p{margin-right:20px;}
 .margin-nudge-left-25p{margin-right:25px;}
 .margin-nudge-left-30p{margin-right:30px;}
+.margin-nudge-left-65p{margin-right:65px;}
+
 
 /* target Items*/
 #getStarted_btn{
