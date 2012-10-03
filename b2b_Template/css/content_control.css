@@ -85,12 +85,13 @@ This graphic is used as a visual separator.
 	min-height:200px;
 }
 .modal-body{
-min-height: 600px;
-
+min-height: 510px;
 }
 
 #modalWrapper{
-	z-index:2000!important}
+	z-index:2000!important
+	
+}
 
 
 

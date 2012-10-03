@@ -1,16 +1,22 @@
 $(document).ready(function(){
 //alert('JQuery fired');
 function active_Indicator(){
-	var targetThis = $(this);
 	$('#topLinks ul li a').removeClass('active');
-	$(targetThis).toggleClass('active');
-	console.Log(targetThis);
+	//console.Log(targetThis);
 }
 
 var spec_modal_Height = 800;//Modal generic default
 var spec_modal_Width = 542;//Modal generic default
+$('#home_lnk').click(function (){
+		active_Indicator(this);
+		$(this).toggleClass('active');
+		$('#modalContent').load('modalPages/pricing.html');
+		$('#modalWapper').modal('show');
+		adjustModalwidth(850, 542);
+	});
 	$('#share_btn').click(function (){
-	//alert('features');
+		active_Indicator(this);
+		$(this).toggleClass('active');
 		$('#modalContent').load('modalPages/share_emailForm.html');
 		$('#modalWapper').modal('show');
 		adjustModalwidth(700, 400);
@@ -20,6 +26,7 @@ var spec_modal_Width = 542;//Modal generic default
 	$('#features_lnk').click(function (){
 	//alert('features');
 		active_Indicator(this);
+		$(this).toggleClass('active');
 		$('#modalContent').load('modalPages/features.html');
 		$('#modalWrapper').modal('show');
 		adjustModalwidth(900, 542);
@@ -27,28 +34,30 @@ var spec_modal_Width = 542;//Modal generic default
 
 	$('#getStarted_home_btn').click(function (){
 	//alert('pricing');pricing_lnk
-		active_Indicator(this);
-		$('#modalContent').load('modalPages/pricing.html');
-		$('#modalWrapper').modal('show');
+		//$('#modalWrapper').modal('show');
+		$('#modalContent').load('modalPages/pricing.html');	
 		adjustModalwidth(900, 490);
 	});
 
 	$('#howItWorks_lnk').click(function (){
-	//alert('How it works');
+		active_Indicator(this);
+		$(this).toggleClass('active');
 		$('#modalContent').load('modalPages/howitworks.html');
 		$('#modalWrapper').modal('show');
 		adjustModalwidth(900, 490);
 	});
 	
 	$('#testimonials_lnk').click(function (){
-	//alert('How it works');
+		active_Indicator(this);
+		$(this).toggleClass('active');
 		$('#modalContent').load('modalPages/testimonials.html');
 		$('#modalWrapper').modal('show');
 		adjustModalwidth(700, 400);
 	});
 	
 	$('#login_btn').click(function (){
-	//alert('How it works');
+		active_Indicator(this);
+		$(this).toggleClass('active');
 		$('#modalContent').load('modalPages/login_Form.html');
 		$('#modalWrapper').modal('show');
 		adjustModalwidth(700, 400);
