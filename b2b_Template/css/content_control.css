@@ -72,9 +72,30 @@ This graphic is used as a visual separator.
 }
 
 .margin-left-230p{ margin-left:230px;}
-.margin-top-bottom-30p{ margin-top:30px;}
-.margin-nudge-right-10p{margin-left:10px;}
+.margin-top-bottom-10p{ margin:10px 0;}
+.margin-top-bottom-20p{ margin:20px 0;}
+.margin-top-bottom-30p{ margin:30px 0;}
+.margin-top-bottom-40p{ margin:40px 0;}
 
+.margin-top-10p{ margin-top:10px;}
+.margin-top-20p{ margin-top:20px;}
+.margin-top-30p{ margin-top:30px;}
+.margin-top-40p{ margin-top:40px;}
+.margin-top-50p{ margin-top:50px;}
+
+.margin-nudge-right-10p{margin-left:10px;}
+.margin-nudge-right-15p{margin-left:15px;}
+.margin-nudge-right-20p{margin-left:20px;}
+.margin-nudge-right-25p{margin-left:25px;}
+.margin-nudge-right-30p{margin-left:30px;}
+.margin-nudge-right-35p{margin-left:35px;}
+.margin-nudge-right-65p{margin-left:65px;}
+
+.margin-nudge-left-10p{margin-right:10px;}
+.margin-nudge-left-15p{margin-right:15px;}
+.margin-nudge-left-20p{margin-right:20px;}
+.margin-nudge-left-25p{margin-right:25px;}
+.margin-nudge-left-30p{margin-right:30px;}
 
 /* target Items*/
 #getStarted_btn{
@@ -89,8 +110,7 @@ min-height: 510px;
 }
 
 #modalWrapper{
-	z-index:2000!important
-	
+z-index:2000!important	
 }
 
 
